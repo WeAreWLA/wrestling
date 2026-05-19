@@ -132,12 +132,12 @@ function SpriteDetail() {
       }}
     >
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16, '--px': '11px' }}>
-        <PixelSprite grid={DRAGON_SPRITE} />
+        <PixelSprite grid={DRAGON_SPRITE} scale={0.5} />
         <div style={{ fontSize: 16, letterSpacing: 1 }}>CHARIZARD · :L99</div>
       </div>
       <div style={{ width: '60%', borderTop: '3px dashed #000' }} />
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16, '--px': '11px' }}>
-        <PixelSprite grid={VICTORY_SPRITE} />
+        <PixelSprite grid={VICTORY_SPRITE} scale={0.5} />
         <div style={{ fontSize: 16, letterSpacing: 1 }}>VICTORY · :L99</div>
       </div>
     </div>
